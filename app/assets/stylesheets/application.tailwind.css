@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+@import 'actiontext.css';
+
+.chill-font {
+  font-family: "Chill";
+}
+
+.fire-font {
+  font-family: "Fire";
+}
+
+.gummy-bear-font {
+  font-family: "GummyBear";
+}
+
+@font-face {
+  font-family: "GummyBear";
+  src: url("/fonts/GummyBear.ttf");
+}
+
+@font-face {
+  font-family: "Chill";
+  src: url("/fonts/Brooklyn-Chill.ttf");
+}
+
+@font-face {
+  font-family: "Fire";
+  src: url("/fonts/Fire.ttf");
+}
